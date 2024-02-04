@@ -1,0 +1,118 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+td {
+    padding: 9px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(245, 247, 246);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(177, 226, 224);
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.size {
+    border-radius: 70%;
+    border: 1px solid #4a90e2;
+    background-color: #4a90e2;
+    color: white;
+    text-align: right;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.id {
+    vertical-align: text-top;
+    font-weight: bold;
+}
+
+.allow {
+    font-weight: bold;
+}
+
+.category {
+    vertical-align: text-top;
+    font-weight: bold;
+}
+
+.created {
+    font-weight: bold;
+}
+
+.pri_1 {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #4a90e2;
+    background-color: #4a90e2;
+    color: white;
+    padding: 1px 5px 5px 5px;
+    margin: 2px 20px;
+}
+
+.pri_2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #2bca0b;
+    background-color: #2bca0b;
+    color: white;
+    padding: 1px 5px 5px 5px;
+    margin: 2px 20px;
+}
+
+.pri_3 {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #ca0b0b;
+    background-color: #d81919;
+    color: white;
+    padding: 1px 5px 5px 5px;
+    margin: 2px 20px;
+}
+.pri_4 {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #020e74;
+    background-color: #020e74;
+    color: white;
+    padding: 1px 5px 5px 5px;
+    margin: 2px 20px;
+}
+.pri_5 {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #dbd813;
+    background-color: #dbd813;
+    color: white;
+    padding: 1px 5px 5px 5px;
+    margin: 2px 20px;
+}
+tr:hover{
+ background-color: rgb(11, 214, 207);;
+}
