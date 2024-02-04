@@ -1,0 +1,30 @@
+.big {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5%;
+    box-shadow:
+        5px 5px 10px rgba(0, 0, 0, 0.3),
+        /* Тінь справа-низу */
+        -5px -5px 10px rgba(0, 0, 0, 0.3);
+    border: outset rgb(233, 223, 223);
+}
+
+.small {
+    margin: 5px;
+
+}
+
+.img {
+    margin: 5px;
+    border-radius: 20%;
+    box-shadow:
+        5px 5px 10px rgba(0, 0, 0, 0.3),
+        /* Тінь справа-низу */
+        -5px -5px 10px rgba(0, 0, 0, 0.3);
+    border: outset rgb(233, 223, 223);
+}
+
+.img:hover {
+    border: 4px;
+}
